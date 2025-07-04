@@ -1,0 +1,250 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🎮 PNB Limited Bypass 🎮",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Limited Bypass",
+   LoadingSubtitle = "by ???",
+   ShowText = "🎮", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "PNB Limited Bypass | Key",
+      Subtitle = "Key System",
+      Note = "Ask to owner for key", -- Use this to tell the user how to get a key
+      FileName = "ExampleKey" -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/tWXEmKRT"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+
+local MainTab = Window:CreateTab("Main", nil) -- Title, Image
+
+--update 1--
+local MainSection = MainTab:CreateSection("Limited Update 1")
+
+local Button = MainTab:CreateButton({
+   Name = "Click 150 Tuned | 300.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click 150 Tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Click 125 Old | 300.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click 125 Old"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Click Old Tuned | 400.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click Old Tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+
+--update 2--
+local MainSection = MainTab:CreateSection("Limited Update 2")
+
+local Button = MainTab:CreateButton({
+   Name = "Maxi 155 | 500.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Maxi 155"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Click 150 vietnam | 600.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click 150 vietnam"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Vesmet drag tuned | 800.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Vesmet drag tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Vesmet sperint | 700.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Vesmet sperint"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Mio vietnam | 600.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Mio vietnam"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+
+--update 3--
+local MainSection = MainTab:CreateSection("Limited Update 3")
+
+local Button = MainTab:CreateButton({
+   Name = "Maxi 155 old drag | 850.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Maxi 155 old drag"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Vesmet primavara drag | 900.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Vesmet primavara drag"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "adeve tuned | 720.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] adeve tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Click Kzr v2 Tuned | 790.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click Kzr v2 Tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Click 125 Old Tuned | 750.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click 125 Old Tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+
+--update 4 (last)--
+local MainSection = MainTab:CreateSection("Limited Update 4")
+
+local Button = MainTab:CreateButton({
+   Name = "BCR250RR tuned | 1.500.000.000",
+   Callback = function()
+   local args = {
+	"BCR250RR tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Kawara ZR-25 Drag | 1.500.000.000",
+   Callback = function()
+   local args = {
+	"Kawara ZR-25 Drag"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Kawara ZR-25 tuned | 900.000.000",
+   Callback = function()
+   local args = {
+	"Kawara ZR-25 tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Y15 tuned | 800.000.000",
+   Callback = function()
+   local args = {
+	"Y15 tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Rebah matic | 950.000.000",
+   Callback = function()
+   local args = {
+	"Rebah matic"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Mirox (GP) | 850.000.000",
+   Callback = function()
+   local args = {
+	"Mirox"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "LxDrag (GP) | 980.000.000",
+   Callback = function()
+   local args = {
+	"LxDrag"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
