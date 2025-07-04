@@ -23,11 +23,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "PNB Limited Bypass | Key",
       Subtitle = "Key System",
-      Note = "Ask to owner for key", -- Use this to tell the user how to get a key
-      FileName = "ExampleKey" -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      Note = "Ask the owner for key", -- Use this to tell the user how to get a key
+      FileName = "key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/tWXEmKRT"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"nyocot kau babi"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
