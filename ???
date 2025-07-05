@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Limited Bypasser Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"owner", "???"}
+      Key = {"owner", "???", "ayonxd3481"}
    }
 })
 
@@ -177,7 +177,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 
 
 --update 4 (last)--
-local MainSection = MainTab:CreateSection("Limited Update 4 (latest update")
+local MainSection = MainTab:CreateSection("Limited Update 4 (latest update)")
 
 local Button = MainTab:CreateButton({
    Name = "BCR250RR tuned | 1.500.000.000",
