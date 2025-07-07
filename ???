@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Limited Bypass",
    LoadingSubtitle = "by ???",
    ShowText = "", 
-   Theme = "Default",
+   Theme = "DarkBlue",
 
    ToggleUIKeybind = "K",
 
