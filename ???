@@ -34,8 +34,66 @@ local Window = Rayfield:CreateWindow({
 
 local MainTab = Window:CreateTab("Main", nil) -- Title, Image
 
+
 --update 1--
 local MainSection = MainTab:CreateSection("Limited Update 1")
+
+local Button = MainTab:CreateButton({
+   Name = "??? | Rp ???",
+   Callback = function()
+   local args = {
+	""
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Vesmet 150 | Rp 550.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Vesmet 150 "
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+
+--update 2--
+local MainSection = MainTab:CreateSection("Limited Update 2")
+
+local Button = MainTab:CreateButton({
+   Name = "NVX 155 Purple | Rp 300.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] NVX 155 Purple"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "NVX 155 new racing | Rp 450.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] NVX 155 new racing "
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "NVX OLD tuned | Rp 700.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] NVX OLD tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+--update 3--
+local MainSection = MainTab:CreateSection("Limited Update 3")
 
 local Button = MainTab:CreateButton({
    Name = "Click 150 Tuned | Rp 300.000.000",
@@ -67,9 +125,19 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Click Kzr Tuned | Rp 600.000.000",
+   Callback = function()
+   local args = {
+	"[Limited] Click Kzr Tuned"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
 
---update 2--
-local MainSection = MainTab:CreateSection("Limited Update 2")
+
+--update 4--
+local MainSection = MainTab:CreateSection("Limited Update 4")
 
 local Button = MainTab:CreateButton({
    Name = "Maxi 155 | Rp 500.000.000",
@@ -122,8 +190,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 3--
-local MainSection = MainTab:CreateSection("Limited Update 3")
+--update 5--
+local MainSection = MainTab:CreateSection("Limited Update 5")
 
 local Button = MainTab:CreateButton({
    Name = "Maxi 155 old drag | Rp 850.000.000",
@@ -176,8 +244,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 4 (last)--
-local MainSection = MainTab:CreateSection("Limited Update 4 (latest update)")
+--update 6 (last)--
+local MainSection = MainTab:CreateSection("Limited Update 6 (latest update)")
 
 local Button = MainTab:CreateButton({
    Name = "BCR250RR tuned | Rp 1.500.000.000",
