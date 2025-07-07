@@ -38,7 +38,7 @@ local MainTab = Window:CreateTab("Main", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Limited Update 1")
 
 local Button = MainTab:CreateButton({
-   Name = "Click 150 Tuned | 300.000.000",
+   Name = "Click 150 Tuned | Rp 300.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click 150 Tuned"
@@ -48,7 +48,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Click 125 Old | 300.000.000",
+   Name = "Click 125 Old | Rp 300.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click 125 Old"
@@ -58,7 +58,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Click Old Tuned | 400.000.000",
+   Name = "Click Old Tuned | Rp 400.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click Old Tuned"
@@ -72,7 +72,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 local MainSection = MainTab:CreateSection("Limited Update 2")
 
 local Button = MainTab:CreateButton({
-   Name = "Maxi 155 | 500.000.000",
+   Name = "Maxi 155 | Rp 500.000.000",
    Callback = function()
    local args = {
 	"[Limited] Maxi 155"
@@ -82,7 +82,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Click 150 vietnam | 600.000.000",
+   Name = "Click 150 vietnam | Rp 600.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click 150 vietnam"
@@ -92,7 +92,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Vesmet drag tuned | 800.000.000",
+   Name = "Vesmet drag tuned | Rp 800.000.000",
    Callback = function()
    local args = {
 	"[Limited] Vesmet drag tuned"
@@ -102,7 +102,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Vesmet sperint | 700.000.000",
+   Name = "Vesmet sperint | Rp 700.000.000",
    Callback = function()
    local args = {
 	"[Limited] Vesmet sperint"
@@ -112,7 +112,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Mio vietnam | 600.000.000",
+   Name = "Mio vietnam | Rp 600.000.000",
    Callback = function()
    local args = {
 	"[Limited] Mio vietnam"
@@ -126,7 +126,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 local MainSection = MainTab:CreateSection("Limited Update 3")
 
 local Button = MainTab:CreateButton({
-   Name = "Maxi 155 old drag | 850.000.000",
+   Name = "Maxi 155 old drag | Rp 850.000.000",
    Callback = function()
    local args = {
 	"[Limited] Maxi 155 old drag"
@@ -136,7 +136,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Vesmet primavara drag | 900.000.000",
+   Name = "Vesmet primavara drag | Rp 900.000.000",
    Callback = function()
    local args = {
 	"[Limited] Vesmet primavara drag"
@@ -146,7 +146,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "adeve tuned | 720.000.000",
+   Name = "adeve tuned | Rp 720.000.000",
    Callback = function()
    local args = {
 	"[Limited] adeve tuned"
@@ -156,7 +156,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Click Kzr v2 Tuned | 790.000.000",
+   Name = "Click Kzr v2 Tuned | Rp 790.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click Kzr v2 Tuned"
@@ -166,7 +166,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Click 125 Old Tuned | 750.000.000",
+   Name = "Click 125 Old Tuned | Rp 750.000.000",
    Callback = function()
    local args = {
 	"[Limited] Click 125 Old Tuned"
@@ -180,7 +180,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 local MainSection = MainTab:CreateSection("Limited Update 4 (latest update)")
 
 local Button = MainTab:CreateButton({
-   Name = "BCR250RR tuned | 1.500.000.000",
+   Name = "BCR250RR tuned | Rp 1.500.000.000",
    Callback = function()
    local args = {
 	"BCR250RR tuned"
@@ -190,7 +190,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Kawara ZR-25 Drag | 1.500.000.000",
+   Name = "Kawara ZR-25 Drag | Rp 1.500.000.000",
    Callback = function()
    local args = {
 	"Kawara ZR-25 Drag"
@@ -200,7 +200,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Kawara ZR-25 tuned | 900.000.000",
+   Name = "Kawara ZR-25 tuned | Rp 900.000.000",
    Callback = function()
    local args = {
 	"Kawara ZR-25 tuned"
@@ -210,7 +210,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Y15 tuned | 800.000.000",
+   Name = "Y15 tuned | Rp 800.000.000",
    Callback = function()
    local args = {
 	"Y15 tuned"
@@ -220,7 +220,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Rebah matic | 950.000.000",
+   Name = "Rebah matic | Rp 950.000.000",
    Callback = function()
    local args = {
 	"Rebah matic"
@@ -230,7 +230,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Mirox (GP) | 850.000.000",
+   Name = "Mirox (GP) | Rp 850.000.000",
    Callback = function()
    local args = {
 	"Mirox"
@@ -240,7 +240,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "LxDrag (GP) | 980.000.000",
+   Name = "LxDrag (GP) | Rp 980.000.000",
    Callback = function()
    local args = {
 	"LxDrag"
