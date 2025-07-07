@@ -21,13 +21,13 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, 
    KeySettings = {
-      Title = "PNB Limited Bypass | Key",
+      Title = "PNB Limited Bypass",
       Subtitle = "Key System",
       Note = "Ask the owner for key",
       FileName = "Limited Bypasser Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"owner", "???", "ayonxd3481"}
+      Key = {"owner", "ayonxd3481"}
    }
 })
 
