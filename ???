@@ -261,7 +261,7 @@ local Button = MainTab:CreateButton({
    Name = "Kawara ZR-25 Drag | Rp 1.500.000.000",
    Callback = function()
    local args = {
-	"Kawara ZR-25 Drag"
+	"Kawara ZR-25  Drag"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
    end,
@@ -288,20 +288,20 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Rebah matic | Rp 950.000.000",
+   Name = "Mirox | Rp 850.000.000",
    Callback = function()
    local args = {
-	"Rebah matic"
+	"Mirox"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Mirox (GP) | Rp 850.000.000",
+   Name = "Rebah matic (GP) | Rp 950.000.000",
    Callback = function()
    local args = {
-	"Mirox"
+	"Rebah matic"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
    end,
