@@ -378,8 +378,84 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 local Button = BuyAllTab:CreateButton({
-   Name = "Buy All Update 5 Limited | Rp 7,480,000,000",
+   Name = "Buy All Update 5 Limited | Rp 5,550,000,000",
    Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25  Drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Y15 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Mirox")
+   end,
+})
+
+local Button = BuyAllTab:CreateButton({
+   Name = "Buy All Update 5 Limited (GP) | Rp 7,480,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25  Drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Y15 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Mirox")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Rebah matic")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("LxDrag")
+   end,
+})
+
+
+local BuyAllSection = BuyAllTab:CreateSection("Buy All Update 1-5 Limited")
+
+local Button = BuyAllTab:CreateButton({
+   Name = "Buy All Update 1-5 Limited | Rp 16,660,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX OLD tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 new racing ")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 Purple")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX Gambuy special pnb")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet 150 ")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Mio vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet sperint")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet drag tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr v2 Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] adeve tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet primavara drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155 old drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25  Drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Y15 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Mirox")
+   end,
+})
+
+local Button = BuyAllTab:CreateButton({
+   Name = "Buy All Update 1-5 Limited (GP) | Rp 18,590,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX OLD tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 new racing ")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 Purple")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX Gambuy special pnb")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet 150 ")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Mio vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet sperint")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet drag tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr v2 Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] adeve tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet primavara drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155 old drag")
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25  Drag")
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25 tuned")
