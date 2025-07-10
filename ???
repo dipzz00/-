@@ -35,6 +35,14 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("Main", nil) -- Title, Image
 
 
+--caution--
+local MainSection = MainTab:CreateSection("Caution!")
+local Button = MainTab:CreateButton({
+   Name = "Don't forget to check if you have enough spawner slot before buying!",
+   Callback = function()
+   end,
+})
+
 --update 1--
 local MainSection = MainTab:CreateSection("Limited Update 1")
 
@@ -87,6 +95,7 @@ local Button = MainTab:CreateButton({
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
    end,
 })
+
 
 --update 2--
 local MainSection = MainTab:CreateSection("Limited Update 2")
@@ -310,5 +319,65 @@ local Button = MainTab:CreateButton({
 	"LxDrag"
 }
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer(unpack(args))
+   end,
+})
+
+
+--buy all--
+local MainSection = MainTab:CreateSection("Buy All Limited Each Update")
+
+local Button = MainTab:CreateButton({
+   Name = "Buy All Update 1 Limited | Rp 2,300,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX OLD tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 new racing ")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX 155 Purple")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX Gambuy special pnb")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet 150 ")
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Buy All Update 2 Limited | Rp 1,600,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 Tuned")
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Buy All Update 3 Limited | Rp 3,200,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Mio vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet sperint")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet drag tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 150 vietnam")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155")
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Buy All Update 4 Limited | Rp 4,010,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr v2 Tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] adeve tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Vesmet primavara drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Maxi 155 old drag")
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Buy All Update 5 Limited | Rp 7,480,000,000",
+   Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25  Drag")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Kawara ZR-25 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Y15 tuned")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Mirox")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("Rebah matic")
+game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("LxDrag")
    end,
 })
