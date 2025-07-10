@@ -33,12 +33,20 @@ local Window = Rayfield:CreateWindow({
 
 
 local MainTab = Window:CreateTab("Main", nil) -- Title, Image
+local BuyAllTab = Window:CreateTab("Buy All", nil) -- Title, Image
 
 
 --caution--
 local MainSection = MainTab:CreateSection("Caution!")
 local Button = MainTab:CreateButton({
-   Name = "Don't forget to check if you have enough spawner slot before buying!",
+   Name = "Don't forget to check if you have enough spawner slots before purchasing!",
+   Callback = function()
+   end,
+})
+
+local BuyAllSection = BuyAllTab:CreateSection("Caution!")
+local Button = BuyAllTab:CreateButton({
+   Name = "Don't forget to check if you have enough spawner slots before purchasing!",
    Callback = function()
    end,
 })
@@ -324,9 +332,9 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 
 
 --buy all--
-local MainSection = MainTab:CreateSection("Buy All Limited Each Update")
+local BuyAllSection = BuyAllTab:CreateSection("Buy All Limited Each Update")
 
-local Button = MainTab:CreateButton({
+local Button = BuyAllTab:CreateButton({
    Name = "Buy All Update 1 Limited | Rp 2,300,000,000",
    Callback = function()
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] NVX OLD tuned")
@@ -337,7 +345,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = BuyAllTab:CreateButton({
    Name = "Buy All Update 2 Limited | Rp 1,600,000,000",
    Callback = function()
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click Kzr Tuned")
@@ -347,7 +355,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = BuyAllTab:CreateButton({
    Name = "Buy All Update 3 Limited | Rp 3,200,000,000",
    Callback = function()
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Mio vietnam")
@@ -358,7 +366,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = BuyAllTab:CreateButton({
    Name = "Buy All Update 4 Limited | Rp 4,010,000,000",
    Callback = function()
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("[Limited] Click 125 Old Tuned")
@@ -369,7 +377,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = BuyAllTab:CreateButton({
    Name = "Buy All Update 5 Limited | Rp 7,480,000,000",
    Callback = function()
 game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChild("BuyCar"):InvokeServer("BCR250RR tuned")
