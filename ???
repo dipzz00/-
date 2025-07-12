@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Limited Bypasser Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"owner", "ayonxd3481"}
+      Key = {"owner", "ayonxd3481", "dzaqi8531"}
    }
 })
 
