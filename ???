@@ -36,7 +36,7 @@ local MainTab = Window:CreateTab("Main", nil) -- Title, Image
 local BuyAllTab = Window:CreateTab("Buy All", nil) -- Title, Image
 
 
---caution--
+-- caution
 local MainSection = MainTab:CreateSection("Caution!")
 local Button = MainTab:CreateButton({
    Name = "Don't forget to check if you have enough spawner slots before purchasing!",
@@ -51,7 +51,7 @@ local Button = BuyAllTab:CreateButton({
    end,
 })
 
---update 1--
+-- update 1
 local MainSection = MainTab:CreateSection("Limited Update 1")
 
 local Button = MainTab:CreateButton({
@@ -105,7 +105,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 2--
+-- update 2
 local MainSection = MainTab:CreateSection("Limited Update 2")
 
 local Button = MainTab:CreateButton({
@@ -149,7 +149,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 3--
+-- update 3
 local MainSection = MainTab:CreateSection("Limited Update 3")
 
 local Button = MainTab:CreateButton({
@@ -203,7 +203,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 4--
+-- update 4
 local MainSection = MainTab:CreateSection("Limited Update 4")
 
 local Button = MainTab:CreateButton({
@@ -257,7 +257,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---update 5 (last)--
+-- update 5 (last)
 local MainSection = MainTab:CreateSection("Limited Update 5 (latest update)")
 
 local Button = MainTab:CreateButton({
@@ -331,7 +331,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DealershipEvents"):WaitForChi
 })
 
 
---buy all--
+-- buy all
 local BuyAllSection = BuyAllTab:CreateSection("Buy All Limited Each Update")
 
 local Button = BuyAllTab:CreateButton({
